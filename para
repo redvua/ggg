@@ -1,0 +1,6 @@
+
+exptime=$(date -d "16:30" +"%s")
+curtime=$(date +"%s")
+let "d = (exptime - curtime) / 60"
+# [ $d -le 0 ] let "d += "
+echo $d
