@@ -1,4 +1,4 @@
-
+#########`
 exptime=$(date -d "16:30" +"%s")
 curtime=$(date +"%s")
 let "d = (exptime - curtime) / 60"
